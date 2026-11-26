@@ -1,8 +1,11 @@
 # EX.No.2.1  CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date:
+## Date:12-10-2026
 
 ## AIM
-To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
+To draw the orthographic projections (namely the Front View,
+Top View, and Right/Left Side View) of the given 3D pictorial object (a
+camera model) with all specified dimensions in accordance with
+engineering drawing standards.
 
 ## REQUIREMENTS
 1. Autodesk fusion 360
@@ -10,67 +13,89 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 3. 16 GB of RAM (integrated graphics recommend 1 GB or more)
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
-## PROCEDURE
+## Step-by-Step PROCEDURE
 
- ### STEP-1:  Start the sketch command
+Step 1: Preparation of Sheet & Reference Lines
 
-   Select Sketch > Create Sketch.
+1. Fix the drawing sheet securely onto the drawing board using clips
+ordrafting tape.
+2. Draw a suitable border line and create a title block at the bottom
+rightcorner.
+3. Based on the arrow marked "FRONT", establish the layout
+orientation:
+○ Front View (FV) will be drawn looking from the direction of the
+Arrow.
+○ Top View (TV) will be projected directly below the Front View.
+○ Side View (SV) (Right Side View) will be projected to the left or
+right of the Front View depending on First/Third Angle Projection
+conventions (typically First Angle is standard unless specified
+otherwise).
 
- ### STEP-2:  Select the Sketch Plane
+<img width="707" height="701" alt="image" src="https://github.com/user-attachments/assets/1d20ff23-5deb-4890-8531-a98fe7f11039" />
 
-   Select the Front (XZ) Plane
+Step 2: Drawing the Front View (FV)
 
-### STEP-3: Create a Rectangle 
+1. Project or measure the overall base width of 100 mm horizontally
+and a
+total height of 50 mm vertically for the main body.
+2. Draw the main rectangular body outline.
+3. Locate the central cylindrical lens (ϕ50) on the front face:
+○ Center it horizontally across the 100 mm width.
+○ Draw the circular lens outline with a diameter of 50 mm.
+4. Add the top attachments visible from the front:
+○ Draw the profile of the central trapezoidal flash/viewfinder block
+showing the 45° slope feature.
+○ Draw the outlines of the smaller top buttons/dials on the upper
+surface.
+5. Darken the visible outlines using an HB pencil. 6.
 
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
+<img width="1001" height="627" alt="image" src="https://github.com/user-attachments/assets/9aaefaac-3c4b-4c96-a042-afa5069c8831" />
 
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
+Step 3: Drawing the Top View (TV)
 
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
+1. Project vertical lines downwards from all major features of the Front
+View to align the width cleanly.
+2. Mark the total depth of the object, which is 35 mm for the main body
+plus the 20 mm lens projection (total depth extending to 55 mm).
+3. Draw the rectangular top profile of the camera body (100 mm width
+×35 mm depth).
+4. Represent the cylindrical lens projecting forward by drawing its
+circular profile or projection boundaries corresponding to the depth of
+20 mm.
+5. Draw the top square button block and the circular dial (ϕ20)
+positioned on the top surface layout using the given offset dimensions
+(e.g., 15 mm spacing references).
 
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
+Step 4: Drawing the Side View (SV)
 
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
+1. Using a 45° miter line from the top-view projection boundaries or
+direct horizontal projections from the Front View, construct the Side
+View.
+2. Draw the overall depth box (width/depth of 35 mm) and height (50
+mm base plus top components).
+3. Outline the profile of the camera body from the side, indicating how
+the lens protrudes forward by 20 mm and how the top attachments sit
+on the upper tier.
 
-## INPUT
-![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
+<img width="1157" height="581" alt="image" src="https://github.com/user-attachments/assets/ebc554a4-5948-41c3-991c-61f9ca4946c1" />
+
+Step 5: Dimensioning and Final Finishing
+1. Dimension all crucial features clearly using thin lines, extension
+lines,and arrowheads (e.g., overall length 100, height 50, depth 35,
+lens
+diameter ϕ50, lens projection 20, dial diameter ϕ20).
+2. Ensure all hidden details (if any internal cavities exist) are
+represented using dashed/dotted lines, though most visible features
+here are external.
+3. Clean up any extra construction lines, check dimension accuracy
+4. against the reference drawing, and darken the final object lines.
 
 ## OUTPUT
 
+<img width="1077" height="812" alt="image" src="https://github.com/user-attachments/assets/3eafaa2e-3c90-4180-bf05-255184fe0fc8" />
+
+<img width="1087" height="763" alt="image" src="https://github.com/user-attachments/assets/e6cf23a5-636e-420f-992b-596612bf8349" />
+
 ## RESULT: 
- Thus, the 3D model is created from given isometric drawing.
+Thus the given sketch is drawn and drafted using fusion 360
+tool.
